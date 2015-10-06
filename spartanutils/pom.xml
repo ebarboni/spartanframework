@@ -9,4 +9,11 @@
     </parent>
     <name>Spartan Utils</name>
     <artifactId>spartanutils</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>spartanframework</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
