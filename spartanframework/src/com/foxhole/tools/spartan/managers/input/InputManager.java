@@ -334,6 +334,14 @@ public class InputManager implements ISpartanManager, InputListener {
 		// TODO Auto-generated method stub
 		
 	}
+
+    public void mouseDragged(int i, int i1, int i2, int i3) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void inputStarted() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 	
 	class ListenerLayer{
 		List<ISpartanMouseListener> mouseListeners;
